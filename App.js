@@ -5,53 +5,30 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { View } from 'react-native';
+import firebase from 'firebase';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import { Header } from './src/components/common';
+import LoginForm from './src/components/LoginForm';
 
 export default class App extends Component<{}> {
+  componentWillMount() {
+    firebase.initializeApp({
+      apiKey: 'AIzaSyAHCwzSMDtSR8kXydIFoY1rZ28bb_PXtQg',
+      authDomain: 'auth-8b99e.firebaseapp.com',
+      databaseURL: 'https://auth-8b99e.firebaseio.com',
+      projectId: 'auth-8b99e',
+      storageBucket: 'auth-8b99e.appspot.com',
+      messagingSenderId: '534864189491'
+    });
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+      <View>
+        <Header text="Authentication" />
+        <LoginForm />
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
