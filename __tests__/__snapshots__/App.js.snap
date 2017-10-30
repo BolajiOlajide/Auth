@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 2,
+        "height": 60,
+        "justifyContent": "center",
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 20,
+        }
+      }
+    >
+      Authentication
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 0,
+        "borderColor": "#DDD",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "elevation": 1,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 2,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "borderBottomWidth": 1,
+          "borderColor": "#FFF",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "height": 40,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "fontSize": 18,
+              "paddingLeft": 20,
+            }
+          }
+        >
+          Email
+        </Text>
+        <TextInput
+          autoCorrect={false}
+          onChangeText={[Function]}
+          placeholder="abc@gmail.com"
+          secureTextEntry={undefined}
+          style={
+            Object {
+              "color": "#000",
+              "flex": 2,
+              "fontSize": 18,
+              "height": 30,
+              "lineHeight": 23,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+              "width": 300,
+            }
+          }
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "borderBottomWidth": 1,
+          "borderColor": "#FFF",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "height": 40,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "fontSize": 18,
+              "paddingLeft": 20,
+            }
+          }
+        >
+          Password
+        </Text>
+        <TextInput
+          autoCorrect={false}
+          onChangeText={[Function]}
+          placeholder="password"
+          secureTextEntry={true}
+          style={
+            Object {
+              "color": "#000",
+              "flex": 2,
+              "fontSize": 18,
+              "height": 30,
+              "lineHeight": 23,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+              "width": 300,
+            }
+          }
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "borderBottomWidth": 1,
+          "borderColor": "#FFF",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "backgroundColor": "#FFF",
+            "borderColor": "#007AFF",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#007AFF",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Log In
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
